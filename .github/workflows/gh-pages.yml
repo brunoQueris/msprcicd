@@ -28,7 +28,7 @@ jobs:
           pip3 install sphinx recommonmark
       - name: "Build Sphinx Doc"
         run: |
-          cd docs && make html
+          make html
       # 3. Déploiement sur les Github Pages
       - name: "Deploy Github Pages"
         uses: JamesIves/github-pages-deploy-action@3.7.1
