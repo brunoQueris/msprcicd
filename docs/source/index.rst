@@ -10,7 +10,7 @@ Welcome to tpDocumentation's documentation!
    :maxdepth: 2
    :caption: Contents:
 
-.. include:: ./README.rst
+.. include:: ../README.rst
 
 Indices and tables
 ==================
